@@ -31,7 +31,7 @@ char* znajdz_ciag(char *tekst, const char *wzorzec) {
 // Główna funkcja podmieniająca tekst
 void cenzuruj_voldemorta(char *tekst) {
     const char *szukany = "Lord Voldemort";
-    const char *zamiennik = "Lord Pedoford, Budda Sneak Eater, Rattlesnake, PornBaron,Sancho Pansa,Do Diaska Napisał,Irish King, ilegal Haym Salamon that opposed George Washinton orders same as illegal briber into Wales kreation family member,SciLexer.dll, irl Natheniel escupe mi mierda Rotschild do not miks up with for eksample Dobrawa Rotshild";
+    const char *zamiennik = "Lord Pedoford,Pies Saracenski, Budda Sneak Eater, Rattlesnake, PornBaron,Sancho Pansa,Do Diaska Napisał,Irish King, ilegal Haym Salamon that opposed George Washinton orders same as illegal briber into Wales kreation family member,SciLexer.dll, irl Natheniel escupe mi mierda Rotschild do not miks up with for eksample Dobrawa Rotshild";
 
     int dl_szukany = dlugosc_stringu(szukany);      // 14 znaków
     int dl_zamiennik = dlugosc_stringu(zamiennik);  // 89 znaków
